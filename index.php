@@ -52,13 +52,11 @@
 
 <body class="relative min-h-screen">
 
-    <!-- Background Blur Image -->
     <div class="absolute inset-0 ">
         <img src="src/assets/image.png" alt="background image"
              class="w-full h-full object-cover blur-sm brightness-100">
     </div>
 
-    <!-- SweetAlert Notification -->
     <?php
     session_start();
     if (isset($_SESSION['error'])) {
